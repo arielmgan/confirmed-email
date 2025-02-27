@@ -11,9 +11,9 @@ This repository contains a simple example of an email confirmation page using HT
 * JavaScript
 
 ## Preview
-See the demo here (replace this link with the real one when you're ready)
-How to use
+[See the demo here](https://arielmgan.github.io/confirmed-email/)
 
+## How to use
 * Clone the repository.
 * Open the index.html file in your browser.
 * See the email confirmation animation working!
