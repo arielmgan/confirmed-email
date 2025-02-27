@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         iconElement.style.color = '#ff4d4d';  
         messageElement.innerHTML = 'The confirmation link has expired. Please request a new link.';
         messageElement.style.color = '#ff4d4d';
+        bodyElement.classList.add('error-bg');
     } else {
         setTimeout(() => {
             document.querySelector(".checkmark").style.opacity = "1";
