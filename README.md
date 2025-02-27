@@ -11,7 +11,7 @@ This repository contains a simple example of an email confirmation page using HT
 * JavaScript
 
 ## Preview
-[See the demo here](https://arielmgan.github.io/confirmed-email/)
+[See the demo here](https://arielmgan.github.io/confirmedemail/)
 
 ## How to use
 * Clone the repository.
