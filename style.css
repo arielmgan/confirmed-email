@@ -19,6 +19,10 @@ body {
     background-color: #ff4d4d !important;
 }
 
+.success-bg {
+    background-color: #028354 !important;
+}
+
 .container {
     display: flex;
     flex-direction: column;
