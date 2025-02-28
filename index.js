@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const iconElement = document.getElementById('icon');
     const messageElement = document.getElementById('message');
+    const bodyElement = document.body;
 
     if (errorCode === 'otp_expired') {
         iconElement.innerHTML = '❌'; 
