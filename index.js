@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
         iconElement.style.color = '#ff4d4d';  
         messageElement.innerHTML = 'The confirmation link has expired. Please request a new link.';
         messageElement.style.color = '#ff4d4d';
-        bodyElement.classList.add('error-bg');
+        bodyElement.style.backgroundColor = '#ff4d4d';
     } else {
-        bodyElement.classList.add('success-bg');
+        bodyElement.style.backgroundColor = '#028354';
         setTimeout(() => {
             document.querySelector(".checkmark").style.opacity = "1";
         }, 500);
