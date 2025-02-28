@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
         messageElement.style.color = '#ff4d4d';
         bodyElement.classList.add('error-bg');
     } else {
+        bodyElement.classList.add('success-bg');
         setTimeout(() => {
             document.querySelector(".checkmark").style.opacity = "1";
         }, 500);
